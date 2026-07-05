@@ -1,9 +1,9 @@
 # Mutual - ProjectLink
 ASL Live-Fingerspelling Classification and LLM Processing
 
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/YOUR-FIRST-IMAGE-ID" height="200" />
-  <img src="https://github.com/user-attachments/assets/YOUR-SECOND-IMAGE-ID" height="200" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae8f1c9c-3333-40b6-8aa9-29d2b3ce8a0c" height="200" />
+  <img src="https://github.com/user-attachments/assets/1573b4e3-7e04-4fd3-94d5-bee4915dbab0" height="200" />
 </p>
 
 
