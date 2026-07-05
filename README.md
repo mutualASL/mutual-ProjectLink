@@ -1,10 +1,11 @@
 # Mutual - ProjectLink
 ASL Live-Fingerspelling Classification and LLM Processing
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/ae8f1c9c-3333-40b6-8aa9-29d2b3ce8a0c" width="360" />
-  <img src="https://github.com/user-attachments/assets/1573b4e3-7e04-4fd3-94d5-bee4915dbab0" width="360" />
-</div>
+<p align="center">
+  <img src="https://github.com" height="200" />
+  <img src="https://github.com" height="200" />
+</p>
+
 
 
 ## Prior Acknowledgement: 
