@@ -1,6 +1,8 @@
 # Mutual - ProjectLink
 ASL Live-Fingerspelling Classification and LLM Processing
 
+<img width="361" height="197" alt="Screenshot 2026-07-06 at 12 46 48 AM" src="https://github.com/user-attachments/assets/ae8f1c9c-3333-40b6-8aa9-29d2b3ce8a0c" />
+
 ## Prior Acknowledgement: 
 Our interpretation pipeline attempts to interpret real-time ASL fingerspelling for simple exchanges. We acknowledge that ASL is a dynamic and interpretive language that necessitates, ultimately, human-to-human communication, and that our design fails to account for facial involvement and the "feeling" aspect of the language. We also recognize that fingerspelling is only a portion of the language that assists in specifying proper nouns, technical terms, and words that have not yet been standardized. 
 
