@@ -1,0 +1,54 @@
+# ── Ignore everything by default, then un-ignore only the keepers ────────────
+*
+
+# Directories must be explicitly allowed before their contents
+!*/
+
+# ── Runtime scripts ──────────────────────────────────────────────────────────
+!piroitranslation.py
+!piroidatacollection.py
+!asl_settings.py
+!asl_monitor.py
+!piupdater.py
+!server.py
+
+# ── Training + evaluation ────────────────────────────────────────────────────
+!train_v3_with_graphics.py
+
+# ── Anything starting with roi (scripts, data-collection helpers, etc.) ──────
+!roi*
+
+# Exclude these roi-prefixed items you do NOT want (override the !roi* rule above)
+roiux/
+roiswift_landmark_model.keras
+roiswift_landmark_model_left.keras
+roiasl_landmark_model.keras
+
+# ── Models: v1 / v2 / v3 piroiasl ────────────────────────────────────────────
+!v3piroiasl*
+!class_names.txt
+
+# ── Graphics: charts, logo, animation assets ─────────────────────────────────
+!*.png
+!link_logo.png
+!link_default.mov
+!link_query.mov
+!welcome.mov
+!welcome_img.png
+!bye_img.png
+
+# ── Repo meta ────────────────────────────────────────────────────────────────
+!.gitignore
+!README.md
+
+# ── Hard excludes (never upload, even if a rule above would catch them) ──────
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.env
+roitraining_data_chest/
+roitraining_data/
