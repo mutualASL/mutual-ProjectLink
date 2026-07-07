@@ -72,6 +72,7 @@ Model: "sequential"
  Non-trainable params: 352 (1.38 KB)
 ```
 **Latest Model Synopsis**: July 3, 2026
+
 **Version 3:** v3piroiasl_landmark_model.keras
 
 1. Summary: The v3 landmark classifier was retrained on the expanded skeleton-render dataset and reached 99.13% validation accuracy, converging in just 6 epochs before the convergence callback stopped training. Every one of the 26 letters scored ≥ 97% recall, with 10 letters at or effectively at 100%. The model has 2.59M trainable parameters (9.86 MB of weights) and is deployment-ready for the Raspberry Pi 5 wearable with no pipeline changes.
@@ -229,10 +230,4 @@ We can expect live translation to have an accuracy rate somewhat lower than the 
 We use a joint classification and query system to interpret a sequence of signed fingerspelling hand poses into simple English textual phrases. We run a relay server via Runway that manages LLM querying and houses our interpretation prompt and instructions. We are currently using Llama 3.3 70B as our main LLM model responsible for interpretation. 
 
 Each query is segmented into two parts: refinement and composition. The LLM first interprets the raw sequence of letters and corrects misreadings into segmented words. Then, the corrected words are inferred into the shortest natural English that carries them. The system prioritizes mitigating the risk of fabricated intent by focusing solely on user input. The interpreted textual output is then relayed back to the user. 
-
-
-
-
-
-
 
