@@ -225,5 +225,14 @@ We can expect live translation to have an accuracy rate somewhat lower than the 
   </tr>
 </table>
 
+### 3. LLM Interpretation Layer:
+We use a joint classification and query system to interpret a sequence of signed fingerspelling hand poses into simple English textual phrases. We run a relay server via Runway that manages LLM querying and houses our interpretation prompt and instructions. We are currently using Llama 3.3 70B as our main LLM model responsible for interpretation. 
+
+Each query is segmented into two parts: refinement and composition. The LLM first interprets the raw sequence of letters and corrects misreadings into segmented words. Then, the corrected words are inferred into the shortest natural English that carries them. The system prioritizes mitigating the risk of fabricated intent by focusing solely on user input. The interpreted textual output is then relayed back to the user. 
+
+
+
+
+
 
 
